@@ -1,4 +1,5 @@
 <%# Add the Facebook login link here %>
+<<<<<<< HEAD
 
 <% if session[:user_id] %>
   <h1><%= @user.name %></h1>
@@ -8,3 +9,6 @@
 <% else %>
   <%= link_to('Log in with Facebook!', '/auth/facebook') %>
 <% end %>
+=======
+<%= link_to('Log in with Facebook!', '/auth/facebook') %>
+>>>>>>> d277416a9d5e2b4a8463da44ae1a99352ffa1afb
